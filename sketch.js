@@ -6,7 +6,8 @@ var cloudImage;
 
 function preload(){
 trex_running = loadAnimation("trex1.png","trex3.png","trex4.png");
-ground_img = loadAnimation("ground2.png")
+ground_img = loadAnimation("ground2.png");
+cloudImage = loadAnimation("cloud.png");
 
 }
 function setup(){
