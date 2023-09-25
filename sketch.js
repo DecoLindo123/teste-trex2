@@ -33,7 +33,9 @@ if(ground.x < 0)
   ground.x = ground.width/2;
 }
 
-spawnClouds()
+console.log(frameCount);
+
+spawnClouds();
 drawSprites();
 }
 function spawnClouds()
